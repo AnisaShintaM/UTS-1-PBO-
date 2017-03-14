@@ -20,10 +20,10 @@ CRUD TOKO SAYA BAGUS <br>
 [![3_tambahbarangdiskon.jpg](https://s24.postimg.org/gcv2zx8cl/3_tambahbarangdiskon.jpg)](https://postimg.org/image/6fk26v0qp/)
 
 *Melakukan aksi terhadap button delete tanpa memilih baris*
-[4_deletebelomdiselect.jpg](https://postimg.org/image/agmdc5f3f/)
+[![4_deletebelomdiselect.jpg](https://s1.postimg.org/79rtsiunj/4_deletebelomdiselect.jpg)](https://postimg.org/image/agmdc5f3f/)
 *Delete data*
-[5_deletepopupnya.jpg](https://postimg.org/image/plfq7d6gh/)
-[6_deletesukses.jpg](https://postimg.org/image/3w73nm36h/)
+[![5_deletepopupnya.jpg](https://s24.postimg.org/5e2af28z9/5_deletepopupnya.jpg)](https://postimg.org/image/plfq7d6gh/)
+[![6_deletesukses.jpg](https://s4.postimg.org/wyldqfpgd/6_deletesukses.jpg)](https://postimg.org/image/3w73nm36h/)
 
 *Data Kau berhasil di delete. Dengan menekan button refresh maka akan tampil pembaharuan yang ada*
 [![7_refresh.jpg](https://s2.postimg.org/mkp4gp89l/7_refresh.jpg)](https://postimg.org/image/m7xqaipzp/)
