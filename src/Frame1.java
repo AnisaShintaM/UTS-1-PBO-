@@ -42,6 +42,8 @@ public class Frame1 extends javax.swing.JFrame {
         up = new javax.swing.JButton();
         ex = new javax.swing.JButton();
         in = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -104,6 +106,15 @@ public class Frame1 extends javax.swing.JFrame {
         });
         getContentPane().add(in);
         in.setBounds(260, 240, 90, 30);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/1332463569169212797vactor flower.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(-410, 0, 810, 290);
+
+        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 300);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -200,6 +211,8 @@ public class Frame1 extends javax.swing.JFrame {
     private javax.swing.JButton in;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtnama;
     private javax.swing.JTextField txtpass;
     private javax.swing.JButton up;

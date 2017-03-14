@@ -53,23 +53,6 @@ public class Frame2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        id = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        nama = new javax.swing.JTextField();
-        jumlah = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        kasir = new javax.swing.JTextField();
-        b8 = new javax.swing.JLabel();
-        Tanggal = new com.toedter.calendar.JDateChooser();
-        harga1 = new javax.swing.JTextField();
-        b9 = new javax.swing.JLabel();
-        diskon = new javax.swing.JTextField();
-        Total = new javax.swing.JLabel();
-        total = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         tabel = new javax.swing.JTable();
@@ -78,89 +61,44 @@ public class Frame2 extends javax.swing.JFrame {
         delete = new javax.swing.JButton();
         clear = new javax.swing.JButton();
         refresh = new javax.swing.JButton();
-        edit1 = new javax.swing.JButton();
         print = new javax.swing.JButton();
-        Hasil1 = new javax.swing.JLabel();
         taa = new javax.swing.JLabel();
-        labeljam = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        id = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        nama = new javax.swing.JTextField();
+        tjumlah = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        kasir = new javax.swing.JTextField();
+        b8 = new javax.swing.JLabel();
+        Tanggal = new com.toedter.calendar.JDateChooser();
+        tharga = new javax.swing.JTextField();
+        b9 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        Hasil1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(0, 255, 102));
-        jPanel1.setLayout(null);
-        jPanel1.add(id);
-        id.setBounds(130, 70, 170, 30);
-
-        jLabel1.setFont(new java.awt.Font("Tekton Pro Ext", 0, 14)); // NOI18N
-        jLabel1.setText("ID Barang");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(10, 70, 120, 30);
-
-        jLabel2.setFont(new java.awt.Font("Tekton Pro Ext", 0, 14)); // NOI18N
-        jLabel2.setText("Nama  Barang");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(10, 120, 120, 30);
-        jPanel1.add(nama);
-        nama.setBounds(130, 120, 170, 30);
-        jPanel1.add(jumlah);
-        jumlah.setBounds(130, 170, 170, 30);
-
-        jLabel3.setFont(new java.awt.Font("Tekton Pro Ext", 0, 14)); // NOI18N
-        jLabel3.setText("Jumlah  Barang");
-        jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 170, 116, 30);
-
-        jLabel4.setFont(new java.awt.Font("Tekton Pro Ext", 0, 14)); // NOI18N
-        jLabel4.setText("Harga Barang");
-        jPanel1.add(jLabel4);
-        jLabel4.setBounds(10, 230, 120, 30);
-
-        jLabel6.setFont(new java.awt.Font("Tekton Pro Ext", 0, 14)); // NOI18N
-        jLabel6.setText("Diskon Harga");
-        jPanel1.add(jLabel6);
-        jLabel6.setBounds(10, 280, 120, 30);
-        jPanel1.add(kasir);
-        kasir.setBounds(130, 380, 170, 30);
-
-        b8.setFont(new java.awt.Font("Lao UI", 1, 14)); // NOI18N
-        b8.setText("Tanggal ");
-        jPanel1.add(b8);
-        b8.setBounds(10, 330, 90, 30);
-        jPanel1.add(Tanggal);
-        Tanggal.setBounds(130, 330, 170, 30);
-        jPanel1.add(harga1);
-        harga1.setBounds(130, 230, 170, 30);
-
-        b9.setFont(new java.awt.Font("Lao UI", 1, 14)); // NOI18N
-        b9.setText("Nama Kasir");
-        jPanel1.add(b9);
-        b9.setBounds(10, 380, 90, 30);
-        jPanel1.add(diskon);
-        diskon.setBounds(130, 280, 170, 30);
-
-        Total.setFont(new java.awt.Font("Lao UI", 1, 14)); // NOI18N
-        Total.setText("Total");
-        jPanel1.add(Total);
-        Total.setBounds(10, 420, 90, 30);
-        jPanel1.add(total);
-        total.setBounds(130, 420, 170, 30);
-
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(10, 120, 310, 490);
-
-        jPanel2.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel2.setBackground(new java.awt.Color(255, 204, 0));
         jPanel2.setLayout(null);
 
         tabel.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "IdBarang", "Nama", "Jumlah", "Harga", "Tanggal", "NamaKasir", "Total"
+                "IdBarang", "Nama", "Jumlah", "Harga", "Tanggal", "NamaKasir", "Diskon", "Total"
             }
         ));
         jScrollPane2.setViewportView(tabel);
@@ -170,12 +108,12 @@ public class Frame2 extends javax.swing.JFrame {
         }
 
         jPanel2.add(jScrollPane2);
-        jScrollPane2.setBounds(10, 10, 780, 402);
+        jScrollPane2.setBounds(10, 10, 790, 310);
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(340, 180, 800, 430);
+        jPanel2.setBounds(340, 260, 800, 330);
 
-        jPanel3.setBackground(new java.awt.Color(255, 102, 102));
+        jPanel3.setBackground(new java.awt.Color(255, 153, 51));
         jPanel3.setLayout(null);
 
         save.setText("Save");
@@ -185,7 +123,7 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(save);
-        save.setBounds(40, 10, 110, 30);
+        save.setBounds(90, 10, 110, 30);
 
         delete.setText("Delete");
         delete.addActionListener(new java.awt.event.ActionListener() {
@@ -194,7 +132,7 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(delete);
-        delete.setBounds(160, 10, 110, 30);
+        delete.setBounds(210, 10, 110, 30);
 
         clear.setText("Clear");
         clear.addActionListener(new java.awt.event.ActionListener() {
@@ -203,7 +141,7 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(clear);
-        clear.setBounds(290, 10, 110, 30);
+        clear.setBounds(340, 10, 110, 30);
 
         refresh.setText("Refresh");
         refresh.addActionListener(new java.awt.event.ActionListener() {
@@ -212,16 +150,7 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(refresh);
-        refresh.setBounds(410, 10, 110, 30);
-
-        edit1.setText("Edit");
-        edit1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edit1ActionPerformed(evt);
-            }
-        });
-        jPanel3.add(edit1);
-        edit1.setBounds(530, 10, 110, 30);
+        refresh.setBounds(460, 10, 110, 30);
 
         print.setText("Print");
         print.addActionListener(new java.awt.event.ActionListener() {
@@ -230,53 +159,159 @@ public class Frame2 extends javax.swing.JFrame {
             }
         });
         jPanel3.add(print);
-        print.setBounds(650, 10, 110, 30);
+        print.setBounds(580, 10, 110, 30);
 
         getContentPane().add(jPanel3);
-        jPanel3.setBounds(340, 120, 800, 50);
-
-        Hasil1.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
-        getContentPane().add(Hasil1);
-        Hasil1.setBounds(880, 80, 220, 40);
+        jPanel3.setBounds(340, 200, 800, 50);
 
         taa.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
         getContentPane().add(taa);
         taa.setBounds(880, 0, 220, 40);
 
-        labeljam.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
-        getContentPane().add(labeljam);
-        labeljam.setBounds(880, 30, 220, 40);
+        jPanel4.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel4.setLayout(null);
+
+        jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 24)); // NOI18N
+        jLabel5.setText("TOKO SAYA BAGUS");
+        jPanel4.add(jLabel5);
+        jLabel5.setBounds(450, 110, 200, 30);
+
+        jLabel11.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jLabel11.setText("Telp. 031-588-3242 Fax. 031-588-3212 ");
+        jPanel4.add(jLabel11);
+        jLabel11.setBounds(390, 160, 300, 20);
+
+        jLabel8.setFont(new java.awt.Font("Traditional Arabic", 1, 18)); // NOI18N
+        jLabel8.setText("Jln. Soekarno Hatta Barat Blok D, Surabaya 60118, Jawa Timur, Indonesia");
+        jPanel4.add(jLabel8);
+        jLabel8.setBounds(250, 140, 610, 20);
+
+        jPanel1.setBackground(new java.awt.Color(255, 153, 51));
+        jPanel1.setLayout(null);
+        jPanel1.add(id);
+        id.setBounds(120, 70, 190, 30);
+
+        jLabel1.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
+        jLabel1.setText("ID Barang");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(10, 70, 130, 30);
+
+        jLabel2.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
+        jLabel2.setText("Nama  Barang");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(10, 120, 130, 30);
+        jPanel1.add(nama);
+        nama.setBounds(120, 120, 190, 30);
+        jPanel1.add(tjumlah);
+        tjumlah.setBounds(120, 170, 190, 30);
+
+        jLabel3.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
+        jLabel3.setText("Jumlah  Barang");
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(10, 170, 130, 30);
+
+        jLabel4.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
+        jLabel4.setText("Harga Barang");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(10, 230, 130, 30);
+        jPanel1.add(kasir);
+        kasir.setBounds(120, 330, 190, 30);
+
+        b8.setFont(new java.awt.Font("Tekton Pro Cond", 1, 18)); // NOI18N
+        b8.setText("Tanggal ");
+        jPanel1.add(b8);
+        b8.setBounds(10, 280, 90, 30);
+        jPanel1.add(Tanggal);
+        Tanggal.setBounds(120, 280, 190, 30);
+        jPanel1.add(tharga);
+        tharga.setBounds(120, 230, 190, 30);
+
+        b9.setFont(new java.awt.Font("Tekton Pro Cond", 1, 18)); // NOI18N
+        b9.setText("Nama Kasir");
+        jPanel1.add(b9);
+        b9.setBounds(10, 330, 90, 30);
+
+        jLabel6.setFont(new java.awt.Font("Adobe Garamond Pro Bold", 1, 18)); // NOI18N
+        jLabel6.setText("INPUTKAN BARANG");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(60, 20, 200, 30);
+
+        jPanel4.add(jPanel1);
+        jPanel1.setBounds(10, 200, 320, 390);
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/icone-boutique-01.png"))); // NOI18N
+        jLabel9.setText("jLabel9");
+        jPanel4.add(jLabel9);
+        jLabel9.setBounds(480, 20, 110, 100);
+
+        Hasil1.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
+        jPanel4.add(Hasil1);
+        Hasil1.setBounds(890, 30, 220, 40);
+
+        getContentPane().add(jPanel4);
+        jPanel4.setBounds(0, 0, 1150, 630);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
-    
-                
-        SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd");
-        String tanggal=dateFormat.format(Tanggal.getDate());
+       SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+       String tanggal = dateFormat.format(Tanggal.getDate());
+       
+//       tanggal.setText(kal.format(skrg));
         
-
-        if ("".equals(id.getText())||"".equals(nama.getText())||"".equals(jumlah.getText())||"".equals(harga1.getText()) || "".equals(kasir.getText())||"".equals(tanggal)) {
-            JOptionPane.showMessageDialog(this, "Harap lengkapi data Anda","Error", JOptionPane.WARNING_MESSAGE);
-            
-        }
+        if("".equals(kasir.getText())|| 
+               "".equals(tharga.getText()) || 
+                tanggal.equals("") || 
+                nama.getText().equals("") ||  
+                "".equals(id.getText()) || 
+                "".equals(tjumlah.getText()))
+        {
+        JOptionPane.showMessageDialog(this, "Harap Lengkapi Data","Error",JOptionPane.WARNING_MESSAGE);
+        }else{
+                             
+        int Total;
+        int sub_total;
+        int diskon = 10;
+        int jumlah;
+        int harga;
+        int batas = 100000;
         
-        else{
-          
-            String SQL="INSERT INTO tb_beli(IdBarang,Nama,Jumlah,Total,Diskon,Tanggal)"+
-                    "VALUES('"+id.getText()+"','"+nama.getText()+"','"+jumlah.getText()+"','"+hasile+"','"+kasir.getText()+"','"+tanggal+"')";
-            int status=KoneksiDB.execute(SQL);
-            if (status==1) {
-                JOptionPane.showMessageDialog(this, "Data berhasil disimpan","Sukses",JOptionPane.INFORMATION_MESSAGE);
-                selectData();
-            }
-            else{
-                JOptionPane.showMessageDialog(this, "Data gagal disimpan","Sukses",JOptionPane.WARNING_MESSAGE);
-            }
-        }
+        String jumlahkotor = tjumlah.getText();
+        jumlah = Integer.parseInt(jumlahkotor);
     
-
+        String hargakotor = tharga.getText();
+        harga = Integer.parseInt(hargakotor);
+        
+        sub_total = jumlah * harga;
+        if(sub_total > batas){
+            int hasil = (sub_total * diskon/100);
+            Total = sub_total - hasil;
+        }else{
+            Total = sub_total;
+            diskon = 0;
+        }
+               
+           String SQL = "INSERT INTO tb_beli(IdBarang,Nama,Jumlah,Harga,Tanggal,NamaKasir,Diskon,Total)"
+                   +"VALUES("+id.getText()
+                   +",'"+nama.getText()
+                   +"','"+tjumlah.getText()
+                   +"','"+tharga.getText()
+                   +"','"+tanggal
+                   +"','"+kasir.getText()
+                   +"','"+diskon
+                   +"','"+Total+"')";
+                   
+           int status = KoneksiDB.execute(SQL);
+           
+           if(status == 1){
+               JOptionPane.showMessageDialog(this,"Data Berhasil Ditambahkan","Sukses",JOptionPane.INFORMATION_MESSAGE);
+               selectData();
+           }else{
+               JOptionPane.showMessageDialog(this, "Data Gagal Ditambahkan","Sukses",JOptionPane.WARNING_MESSAGE);
+           }
+                   
+    }
     }//GEN-LAST:event_saveActionPerformed
 
     private void deleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteActionPerformed
@@ -284,8 +319,8 @@ public class Frame2 extends javax.swing.JFrame {
         int confirm = JOptionPane.showConfirmDialog(this, "Anda yakin Menghapus Data!","",JOptionPane.YES_NO_OPTION);
         int baris = tabel.getSelectedRow();
         if (baris != -1) {
-            String IdBarang = tabel.getValueAt(baris, 1).toString();
-            String SQL = "DELETE FROM tb_beli WHERE NIS='"+IdBarang+"'";
+            String IdBarang = tabel.getValueAt(baris, 0).toString();
+            String SQL = "DELETE FROM tb_beli WHERE IdBarang='"+IdBarang+"'";
             int status = KoneksiDB.execute(SQL);
             if (status==1) {
                 JOptionPane.showMessageDialog(this, "Data Berhasil Dihapus","Sukses",JOptionPane.INFORMATION_MESSAGE);
@@ -299,10 +334,11 @@ public class Frame2 extends javax.swing.JFrame {
     }//GEN-LAST:event_deleteActionPerformed
 
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
-        Tanggal.setDate(null);
+        id.setText("");
         nama.setText("");
-        jumlah.setText("");
-       
+        tjumlah.setText("");
+        tharga.setText("");
+        Tanggal.setDate(null);
         kasir.setText("");
         
     }//GEN-LAST:event_clearActionPerformed
@@ -310,41 +346,6 @@ public class Frame2 extends javax.swing.JFrame {
     private void refreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshActionPerformed
         selectData();
     }//GEN-LAST:event_refreshActionPerformed
-
-    private void edit1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edit1ActionPerformed
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyy-MM-dd");
-        String tanggal = dateFormat.format(Tanggal.getDate());
-        int regane1,regane2,regane3,hasile;
-        
-        regane1=Integer.parseInt(String.valueOf(harga1.getText()));
-        regane2=Integer.parseInt(String.valueOf(harga2.getText()));
-        regane3=Integer.parseInt(String.valueOf(harga3.getText()));
-        hasile = regane1 + regane2 + regane3; 
-        
-        int baris = tabel.getSelectedRow();
-        String nobar = tabel.getValueAt(baris, 1).toString();
-        if ("".equals(id.getText()) || "".equals(nama.getText()) || "".equals(jumlah.getText())||"".equals(harga3.getText())||"".equals(hasile)||"".equals(kasir.getText())||"".equals(tanggal)){
-
-            JOptionPane.showMessageDialog(this, "Harap Lengkapi Data","Error",JOptionPane.WARNING_MESSAGE);
-        }else{
-           
-            String SQL ="UPDATE `tb_beli` SET `IdBarang`='"+id.getText()
-            +"',`Nama`='"+nama.getText()
-            +"',`Jumlah`='"+jumlah.getText()
-            +"',`Harga'='"+harga3.getText()
-            +"',`Diskon`='"+kasir.getText()
-                              
-           +"' WHERE NIS='"+nobar+"'";
-
-            int status = KoneksiDB.execute(SQL);
-            if (status == 1) {
-                JOptionPane.showMessageDialog(this,"Data berhasil di Update","Sukses", JOptionPane.INFORMATION_MESSAGE);
-                selectData();
-            }else{
-                JOptionPane.showMessageDialog(this,"Data gagal di Update","Sukses",JOptionPane.WARNING_MESSAGE);
-            }
-        }
-    }//GEN-LAST:event_edit1ActionPerformed
 
     private void printActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_printActionPerformed
         MessageFormat header = new MessageFormat ("Biodata bla");
@@ -396,57 +397,59 @@ public class Frame2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Hasil1;
     private com.toedter.calendar.JDateChooser Tanggal;
-    private javax.swing.JLabel Total;
     private javax.swing.JLabel b8;
     private javax.swing.JLabel b9;
     private javax.swing.JButton clear;
     private javax.swing.JButton delete;
-    private javax.swing.JTextField diskon;
-    private javax.swing.JButton edit1;
-    private javax.swing.JTextField harga1;
     private javax.swing.JTextField id;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextField jumlah;
     private javax.swing.JTextField kasir;
-    private javax.swing.JLabel labeljam;
     private javax.swing.JTextField nama;
     private javax.swing.JButton print;
     private javax.swing.JButton refresh;
     private javax.swing.JButton save;
     private javax.swing.JLabel taa;
     private javax.swing.JTable tabel;
-    private javax.swing.JTextField total;
+    private javax.swing.JTextField tharga;
+    private javax.swing.JTextField tjumlah;
     // End of variables declaration//GEN-END:variables
 
     private void selectData() {
-        String kolom[]={"IdBarang","Nama","Jumlah","Total","Diskon","Tanggal"};
-        DefaultTableModel dtm=new DefaultTableModel(null, kolom);
-        String SQL="SELECT * FROM tb_beli";
-        ResultSet rs=KoneksiDB.executeQuery(SQL);
-        try {
+       String kolom[] = {"IdBarang","Nama","Jumlah","Harga","Tanggal","NamaKasir","Diskon","Total"};
+        DefaultTableModel dtm = new DefaultTableModel(null,kolom);
+        String SQL = "SELECT * FROM tb_beli";
+        ResultSet rs = KoneksiDB.executeQuery(SQL);
+        try{
             while(rs.next()){
-                String IdBarang=rs.getString(1);
-                String Nama=rs.getString(2);
-                String Jumlah=rs.getString(3);
-                String Total=rs.getString(4);
-                String Diskon=rs.getString(5);
-                String Tanggal=rs.getString(6);
-        
-                String data[]={IdBarang,Nama,Jumlah,Total,Diskon,Tanggal};
+                String IdBarang = rs.getString(1);
+                String Nama = rs.getString(2);
+                String Jumlah = rs.getString(3);
+                String Harga = rs.getString(4);
+                String Tanggal = rs.getString(5);
+                String NamaKasir = rs.getString(6);
+                String Diskon = rs.getString(7);
+                String Total = rs.getString(8);
+                String data[] = {IdBarang,Nama,Jumlah,Harga,Tanggal,NamaKasir,Diskon,Total};
                 dtm.addRow(data);
             }
-        } catch (SQLException ex) {
-        //Logger.getLogger(frmMain.class.getName()).log(Level.SEVERE, null, ex);
+        }catch (SQLException ex){
+            Logger.getLogger(Frame2.class.getName()).log(Level.SEVERE,null,ex);
         }
-        tabel.setModel(dtm);
+        
+          tabel.setModel(dtm);   
     }
     
     public void setTanggal() {
