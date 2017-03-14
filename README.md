@@ -6,33 +6,33 @@ CRUD TOKO SAYA BAGUS <br>
 
  **SCREEN SHOOT** <br>
 *Screen Shoot Login* <br>
-![Screenshot 1] (https://s7.postimg.org/mlm5jz9bv/image.jpg)
-![Screenshot 2] (https://s28.postimg.org/nfhy070tp/10_adminsignup.jpg)
+[![d.jpg](https://s7.postimg.org/mlm5jz9bv/image.jpg)](https://postimg.org/image/8f6eoqygn/)
+[![10_adminsignup.jpg](https://s28.postimg.org/nfhy070tp/10_adminsignup.jpg)](https://postimg.org/image/9ykzhbqi1/)
 
 **Screen Shoot Tampilan** <br>
 *Tampilan Awal*
-![Screenshot 1] (https://s23.postimg.org/5lebvzbrf/1_tampawal_JPG.jpg)
+[![1_tampawalJPG.jpg](https://s23.postimg.org/5lebvzbrf/1_tampawal_JPG.jpg)](https://postimg.org/image/6noieiukn/)
 *Insert data tetapi belum lengkap*
-![Screenshot 2] (https://s15.postimg.org/jq83t6zh7/haraplengkapi.jpg)
+[![haraplengkapi.jpg](https://s15.postimg.org/jq83t6zh7/haraplengkapi.jpg)](https://postimg.org/image/uptb4spw7/)
 *Insert data tanpa diskon*
-![Screenshot 2] (https://s21.postimg.org/mwhfgdwp3/2_tambahbarangtanpadiskon.jpg)
+[![2_tambahbarangtanpadiskon.jpg](https://s21.postimg.org/mwhfgdwp3/2_tambahbarangtanpadiskon.jpg)](https://postimg.org/image/ee7zc1q6b/)
 *Insert data dengan diskon*
-![Screenshot 2] (https://s24.postimg.org/gcv2zx8cl/3_tambahbarangdiskon.jpg)
+[![3_tambahbarangdiskon.jpg](https://s24.postimg.org/gcv2zx8cl/3_tambahbarangdiskon.jpg)](https://postimg.org/image/6fk26v0qp/)
 
 *Melakukan aksi terhadap button delete tanpa memilih baris*
-![Screenshot 3] (https://s1.postimg.org/79rtsiunj/4_deletebelomdiselect.jpg)
+[4_deletebelomdiselect.jpg](https://postimg.org/image/agmdc5f3f/)
 *Delete data*
-![Screenshot 4] (https://s24.postimg.org/5e2af28z9/5_deletepopupnya.jpg)
-![Screenshot 4] (https://s4.postimg.org/wyldqfpgd/6_deletesukses.jpg)
+[5_deletepopupnya.jpg](https://postimg.org/image/plfq7d6gh/)
+[6_deletesukses.jpg](https://postimg.org/image/3w73nm36h/)
 
 *Data Kau berhasil di delete. Dengan menekan button refresh maka akan tampil pembaharuan yang ada*
-![Screenshot 5] (https://s2.postimg.org/mkp4gp89l/7_refresh.jpg)
+[![7_refresh.jpg](https://s2.postimg.org/mkp4gp89l/7_refresh.jpg)](https://postimg.org/image/m7xqaipzp/)
 
 *Aksi terhadap button clear*
-![Screenshot 6] (https://s7.postimg.org/7xozx451n/8_clear.jpg)
+[![8_clear.jpg](https://s7.postimg.org/7xozx451n/8_clear.jpg)](https://postimg.org/image/wqyjxro1z/)
 
 *Button Print*
-![Screenshot 8] (https://s21.postimg.org/ldy8w7sqv/9_print.jpg)
+[![9_print.jpg](https://s21.postimg.org/ldy8w7sqv/9_print.jpg)](https://postimg.org/image/yuv7f332b/)
 
 
 **Penjelasan** <br>
